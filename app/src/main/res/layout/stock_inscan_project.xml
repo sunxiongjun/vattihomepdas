@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/txtstockCodeProject"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请扫描库位条码"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+    <EditText
+        android:id="@+id/txtBarCodeProject"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请扫描母码"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+    <Button
+        android:id="@+id/btn_detailProject"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:text="详细信息"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView android:textSize="25.0dip" android:id="@+id/scannfo1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="总计：" />
+        <TextView android:textSize="25.0dip" android:id="@+id/total" android:numeric="integer" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="  "
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/scannfo1"
+            android:layout_toEndOf="@+id/scannfo1" />
+        <TextView android:textSize="25.0dip" android:id="@+id/scannfo12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已扫："
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/total"
+            android:layout_toEndOf="@+id/total" />
+        <TextView android:textSize="25.0dip" android:id="@+id/scantotal" android:numeric="integer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/scannfo12"
+            android:layout_toEndOf="@+id/scannfo12" />
+
+    </RelativeLayout>
+    <TextView android:textSize="25.0dip" android:id="@+id/barcodeinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <TextView android:textSize="25.0dip" android:id="@+id/ordertnumberinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <TextView android:textSize="25.0dip" android:id="@+id/labbackinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <TextView android:textSize="25.0dip" android:id="@+id/labuserinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_stockin"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="入 库"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/btn_stockout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="出 库"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/btn_assort"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="工程配套"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+<!--    <Button
+        android:id="@+id/btn_assortRetail"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="零售配套"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>-->
+
+    <Button
+        android:id="@+id/btn_outSideStockIn"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="外发入库"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_chejian"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="车 间"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+
+    <Button
+        android:id="@+id/btn_stockinorder"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="按单入库"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_project"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="工程单出入库"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/btn_stock_move"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="正单移库"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+      <Button
+           android:id="@+id/btn_characterscan"
+           android:layout_width="fill_parent"
+           android:layout_height="45dp"
+           android:layout_marginTop="7dp"
+           android:layout_marginLeft="35dp"
+           android:layout_marginRight="35dp"
+           android:layout_gravity="center_horizontal"
+           android:text="品检扫描"
+           android:textColor="@android:color/white"
+           android:textSize="16sp"/>
+
+<!--       <Button
+           android:id="@+id/btn_daying"
+           android:layout_width="fill_parent"
+           android:layout_height="60dp"
+           android:layout_marginTop="15dp"
+           android:layout_marginLeft="35dp"
+           android:layout_marginRight="35dp"
+           android:layout_gravity="center_horizontal"
+           android:text="打 印"
+           android:textColor="@android:color/white"
+           android:textSize="18sp"/>-->
+
+</LinearLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtSystemCode"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请扫系统单号"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请选择工序名称"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+
+<!--    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView android:textSize="14sp" android:id="@+id/scannfo1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"  android:layout_marginLeft="5dp" android:text="不良原因：" />
+        <Spinner
+            android:id="@+id/sinperproblem"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="10dp"
+            android:paddingLeft="0dp"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textColorHint="#a3a3a3"
+            android:textSize="14sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/scannfo1"
+            android:layout_toEndOf="@+id/scannfo1"/>
+
+    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView android:textSize="14sp" android:id="@+id/scannfoSum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"  android:layout_marginLeft="5dp" android:text="总件数：" />
+        <EditText
+            android:id="@+id/total"
+            android:layout_width="50dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="0dp"
+            android:paddingLeft="0dp"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textColorHint="#a3a3a3"
+            android:textSize="14sp"
+            android:layout_alignParentTop="true"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:layout_toRightOf="@+id/scannfoSum"
+            android:layout_toEndOf="@+id/scannfoSum"/>
+
+        <TextView android:textSize="14sp" android:id="@+id/scannfoN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="5dp" android:text="不良件数："
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/total"
+            android:layout_toEndOf="@+id/total" />
+
+        <EditText
+            android:id="@+id/txtNumbers"
+            android:layout_width="50dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="0dp"
+            android:paddingLeft="0dp"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textColorHint="#a3a3a3"
+            android:textSize="14sp"
+            android:layout_alignParentTop="true"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:layout_toRightOf="@+id/scannfoN"
+            android:layout_toEndOf="@+id/scannfoN"/>
+
+    </RelativeLayout>
+
+<!--    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <TextView android:textSize="14sp" android:id="@+id/scannfoN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"  android:layout_marginLeft="5dp" android:text="不良件数：" />
+        <Spinner
+            android:id="@+id/sinperNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="10dp"
+            android:paddingLeft="0dp"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textColorHint="#a3a3a3"
+            android:textSize="14sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/scannfoN"
+            android:layout_toEndOf="@+id/scannfoN"/>
+
+    </RelativeLayout>-->
+<!--    <Spinner
+        android:id="@+id/sinperproblem"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请选择不良原因其1"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>-->
+
+<!--    <Spinner
+        android:id="@+id/sinperNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请选择不良件数"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>-->
+
+<!--    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView android:textSize="14sp" android:id="@+id/scannfosN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"  android:layout_marginLeft="5dp" android:text="不良原因：" />
+    <Spinner
+        android:id="@+id/sinperproblemT"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请选择不良原因其2"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/scannfosN"
+        android:layout_toEndOf="@+id/scannfosN"/>
+    </RelativeLayout>-->
+
+
+    <EditText
+        android:id="@+id/problemDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="详细说明"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/btn_sumbit"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="提交"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <TextView android:textSize="25.0dip" android:id="@+id/labuserinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+
+</LinearLayout>

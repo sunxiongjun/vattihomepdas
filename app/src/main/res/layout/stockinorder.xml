@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtassortCodeorder"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请扫描库位条码"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/txtBarCodeorder"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请扫系统单号"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+    <TextView android:textSize="25.0dip" android:id="@+id/yitxtassortCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <TextView android:textSize="25.0dip" android:id="@+id/barcodeinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <TextView android:textSize="25.0dip" android:id="@+id/labbackinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <TextView android:textSize="25.0dip" android:id="@+id/labuserinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+
+</LinearLayout>
